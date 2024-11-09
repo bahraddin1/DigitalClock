@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background: url(images/Addis-Ababa-_-rally.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-size: cover;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    width: 100%;
+    color: #fff;
+    background: black;
+    padding: 10px 0;
+    border-radius: 100px;
+
+}
+
+@media (max-width:776px){
+    #clock{
+        font-size: 3rem;
+        width: 80%;
+    }
+}
